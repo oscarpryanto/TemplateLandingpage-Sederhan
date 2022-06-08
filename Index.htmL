@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page Template</title>
+</head>
+
+<body>
+    <section id="Home">
+        <div class="container">
+            <!-- navigation bar start -->
+            <div class="navwrapper">
+                <ul class="navigation">
+                    <li class="nav">
+                        <a class="navlink" href="#Home">Home </a>
+                    </li>
+                    <li class="nav">
+                        <a class="navlink" href="#About">About </a>
+                    </li>
+                    <li class="nav">
+                        <a class="navlink" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contentwrapper">
+                <h1>Tmplte Landing Page</h1>
+            </div>
+        </div>
+    </section>
+    <section id="About">
+        <div class="container red">
+            <div class="contentwrapper">
+                <h1>About</h1>
+            </div>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="container blue">
+            <div class="contentwrapper">
+                <h1>Contact</h1>
+            </div>
+        </div>
+    </section>
+    <div class="top" onclick="goToTop()">
+<img src="./arrow_up.png" alt="" >
+    </div>
+    <script>
+        const goToTop = () =>{
+            return location.href="#Home"; 
+        }
+    </script>
+</body>
+</html> 
